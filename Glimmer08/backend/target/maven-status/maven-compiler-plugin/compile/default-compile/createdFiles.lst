@@ -1,0 +1,4 @@
+com\uestc\board\repository\MessageRepository.class
+com\uestc\board\controller\MessageController.class
+com\uestc\board\entity\Message.class
+com\uestc\board\MessageBoardApplication.class

@@ -11,4 +11,4 @@ CREATE TABLE IF NOT EXISTS messages (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTRO messages (author, content) VALUES ('System', 'Welcome to Message Board!');
+INSERT INTO messages (author, content) VALUES ('System', 'Welcome to Message Board!');

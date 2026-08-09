@@ -62,6 +62,7 @@ async function submitMessage() {
     try {
         const res = await fetch(API_BASE, {
             method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ author, content })
         });
         if (!res.ok) throw new Error('发布失败');
